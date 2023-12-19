@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    var quantityInput = document.getElementById('quantity');
-    var form = document.getElementById('cartForm');
+    let quantityInput = document.getElementById('quantity');
+    let form = document.getElementById('cartForm');
 
     // Add event listener for changes in quantity
     quantityInput.addEventListener('input', function () {
@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to update total price (replace this with your logic)
     function updateTotalPrice() {
         // Example: Get quantity value and calculate total price
-        var quantity = parseInt(quantityInput.value);
-        var unitPrice = 10; // Replace with your actual unit price
-        var totalPrice = quantity * unitPrice;
+        let quantity = parseInt(quantityInput.value);
+        let unitPrice = 10; // Replace with your actual unit price
+        let totalPrice = quantity * unitPrice;
 
         // Display or use the total price as needed
         console.log('Total Price: $' + totalPrice);
@@ -53,4 +53,4 @@ document.addEventListener('DOMContentLoaded', function () {
         // Perform your form processing logic here
         console.log('Form submitted!');
     });
-});
+});let
